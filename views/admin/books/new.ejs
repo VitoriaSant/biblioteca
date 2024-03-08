@@ -1,0 +1,40 @@
+<%- include ('../../partials/header.ejs') %>
+<%- include ('../../partials/navbar.ejs') %>
+
+<div class="container">
+    <hr>
+    <div class="card">
+        <div class="card-header">
+            <h2>Cadastro de Livros</h2>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="/books/save">
+              Titulo:
+              <input class="form-control" type="text" name="cadTitle" placeholder="Titulo" required>
+              <hr>
+              Autor:
+              <input class="form-control" type="text" name="cadAutor" placeholder="Autor" required>
+              <hr>
+              Descrição:
+              <input class="form-control" type="text" name="cadDescricao" placeholder="Descrição">
+              <hr>
+              Ano de publicação:
+              <input class="form-control" type="text" name="cadAno" placeholder="Ano de publicação">
+              <hr>
+              Quantidade de copias:
+              <input class="form-control" type="text" name="cadCopias" placeholder="Quantidade de copias">
+              <hr>
+              Categoria:
+              <select class="form-control" name="cadCategoria">
+                
+              </select>
+              <hr>
+              <button class="btn btn-success"> Cadastrar </button>
+              <a class="btn btn-success" href=""> Listar </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include ('../../partials/footer.ejs') %>
+

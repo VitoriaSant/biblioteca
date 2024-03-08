@@ -1,0 +1,21 @@
+{
+  "name": "blog-com-painel-administrativo",
+  "version": "1.0.0",
+  "description": "PARA INICIAR UM PROJETO NODE \r - Tem que estar com o Node instalado na paquina \r - Cmd >> cd navegue até a pasta do projeto >> npm init\r - Intalar o express no pc >> npm install express\r - Intalar o express no projeto >> npm install expres --save\r - instaloar o EJS >> npm install ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "ig": "^0.0.5",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.1",
+    "slugify": "^1.6.6"
+  }
+}
